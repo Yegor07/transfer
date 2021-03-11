@@ -6,7 +6,7 @@ Test project for the Remitly Internship
 
 ## Requirements
 1. Install Java jdk13
-2. Set PATH JAVA_HOME (export JAVA_HOME= \<path to your java sdk\> ) 
+2. Set PATH JAVA_HOME (export JAVA_HOME = \<path to your java sdk\> ) 
 
 ## Getting Start
 Run from your command line:
