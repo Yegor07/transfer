@@ -1,4 +1,6 @@
-#Currency exchange application
+# Currency exchange application
+
+
 Test project for the Remitly Internship
 ![](docs/preview.gif)
 ## Getting Start
