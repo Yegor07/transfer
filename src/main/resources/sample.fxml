@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="230.0" maxWidth="330.0" minHeight="230.0" minWidth="330.0" prefHeight="230.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainViewControllerImplementation">
+    <children>
+        <Group layoutX="42.0" layoutY="49.0">
+            <children>
+                <TextField fx:id="send_text" prefHeight="40.0" prefWidth="260.0">
+                    <padding>
+                        <Insets left="35.0" right="35.0" />
+                    </padding>
+                </TextField>
+                <ImageView fx:id="send_image" fitHeight="25.0" fitWidth="25.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+                <Label layoutX="230.0" layoutY="11.0" text="GPB" />
+            </children>
+        </Group>
+        <Group layoutX="42.0" layoutY="114.0">
+            <children>
+                <TextField fx:id="receive_text" prefHeight="40.0" prefWidth="260.0">
+                    <padding>
+                        <Insets left="35.0" right="35.0" />
+                    </padding>
+                </TextField>
+                <Label layoutX="230.0" layoutY="11.0" text="PLN" />
+                <ImageView fx:id="receive_image" fitHeight="25.0" fitWidth="25.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Group>
+        <HBox layoutX="45.0" layoutY="161.0">
+            <children>
+                <Label prefHeight="26.0" prefWidth="50.0" text="1 GPB = " />
+                <Label fx:id="rate_lable" prefHeight="26.0" prefWidth="84.0">
+                    <effect>
+                        <Blend />
+                    </effect>
+                </Label>
+            </children>
+        </HBox>
+        <Label layoutX="42.0" layoutY="32.0" text="You send" />
+        <Label layoutX="42.0" layoutY="97.0" text="They receive" />
+    </children>
+</AnchorPane>
