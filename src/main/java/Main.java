@@ -21,6 +21,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.stage = primaryStage;
+        primaryStage.setResizable(false);
         initMVC();
         initStage();
         viewMainViewControllerImplementation.init();

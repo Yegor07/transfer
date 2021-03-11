@@ -35,7 +35,7 @@
         </Group>
         <HBox layoutX="45.0" layoutY="161.0">
             <children>
-                <Label prefHeight="26.0" prefWidth="50.0" text="1 GPB = " />
+                <Label prefHeight="26.0" text="1 GPB = " />
                 <Label fx:id="rate_lable" prefHeight="26.0" prefWidth="84.0">
                     <effect>
                         <Blend />
